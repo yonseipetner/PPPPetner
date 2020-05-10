@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/logo01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#d3d3d3"
+        android:src="@mipmap/ic_launcher"></ImageButton>
+    <TextView
+        android:id="@+id/exID"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text=" 아이디*(필수입력)">
+    </TextView>
+    <EditText
+        android:id="@+id/joinID"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint=" 아이디"
+        android:background="@drawable/editbox_background"
+        >
+    </EditText>
+    <TextView
+        android:id="@+id/exPass"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_dark"
+        android:text=" 비밀번호*(필수입력)">
+    </TextView>
+    <EditText
+        android:id="@+id/joinPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint=" 비밀번호"
+        android:background="@drawable/editbox_background"
+        >
+    </EditText>
+    <TextView
+        android:id="@+id/exPass2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_dark"
+        android:text=" 비밀번호 확인*(필수입력)">
+    </TextView>
+    <EditText
+        android:id="@+id/joinPass2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint=" 비밀번호 확인"
+        android:background="@drawable/editbox_background"
+        >
+    </EditText>
+    <TextView
+        android:id="@+id/exName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_dark"
+        android:text=" 이름*(필수입력)">
+    </TextView>
+    <EditText
+        android:id="@+id/joinName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint=" 이름"
+        android:background="@drawable/editbox_background"
+        >
+    </EditText>
+    <TextView
+        android:id="@+id/exNick"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_dark"
+        android:text=" 닉네임*(필수입력)">
+    </TextView>
+    <EditText
+        android:id="@+id/joinNick"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint=" 닉네임"
+        android:background="@drawable/editbox_background"
+        >
+    </EditText>
+    <TextView
+        android:id="@+id/exBirth"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:text=" 생년월일">
+    </TextView>
+    <Button
+        android:id="@+id/Birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onBirthdayClicked"/>
+    <TextView
+        android:id="@+id/exEmail"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:text=" 이메일 (아이디/비밀번호 조회시 사용)">
+    </TextView>
+    <EditText
+        android:id="@+id/joinEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint=" 이메일"
+        android:background="@drawable/editbox_background"
+        >
+    </EditText>
+    <Button
+        android:id="@+id/join"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="가입하기"></Button>
+</LinearLayout>
